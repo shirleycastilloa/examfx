@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'
 
 $markdownPath = Join-Path (Get-Location) 'series65_original_practice_bank.md'
-$htmlPath = Join-Path (Get-Location) 'series65_practice.html'
+$htmlPath = Join-Path (Get-Location) 'index.html'
 $utf8 = [System.Text.UTF8Encoding]::new($false)
 $markdown = [System.IO.File]::ReadAllText($markdownPath, $utf8)
 
